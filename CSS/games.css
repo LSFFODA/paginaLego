@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ffffff;
+}
+
+header {
+    background: #d23030;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+}
+
+nav {
+    float: right;
+    margin-top: 10px; 
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: black;
+    padding: 5px 10px;
+}
+
+nav ul li a:hover {
+    background: #333;
+    border-radius: 5px;
+}
+
+.jogos {
+    background: url('../images/Design\ sem\ nome.png') no-repeat center center/cover;
+    color: #ffffff;
+    text-align: right;
+    padding: 125px 0;
+}
+
+.coisas {
+    padding: 20px 0;
+}
+
+.coisas {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.coisas img {
+    max-width: 20%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.texto {
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+footer {
+    background: #d23030;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
